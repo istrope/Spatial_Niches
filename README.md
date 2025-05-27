@@ -27,15 +27,7 @@ This repository provides a `Neighborhood` class for performing differential expr
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-
-## Dependencies
-
-* Python 3.8+
-* `numpy`
-* `pandas`
-* `scanpy`
-* `anndata`
-
+> **Required**: Python 3.8+
 > **Note:** Your AnnData object should contain a connectivity graph in `adata.obsp['connectivities']`.
 
 ## Usage
